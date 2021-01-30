@@ -1,0 +1,19 @@
+.btn{
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    font-size : 20px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.input-field{
+    margin-top: 5px;
+    width: 165px;
+}
+
+#output{
+    margin-top: 10px;
+    font-size : 20px;
+    line-height: 40px;
+}
