@@ -1,0 +1,19 @@
+.menu{
+    margin-top: 20px;
+    font-size : 16px;
+    width: 650px;
+    text-align: center;
+}
+
+.btn{
+    height: 40px;
+    width: 150px;
+    margin-top: 20px;
+    font-size : 15px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.input-field{
+    margin-top: 10px;
+}

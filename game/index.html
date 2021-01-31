@@ -1,0 +1,54 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <title>Calc</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <meta charset="UTF-8">
+</head>
+<body>
+    <div class="menu">
+        <div id="gamemenu"></div>
+
+        <div class="buttons">
+            <button class="btn" id="startGame"></button>
+            <button class="btn" id="gameOptions"></button>
+            <button class="btn" id="gameCredits"></button>
+            <button class="btn" id="exitGame"></button>
+        </div>
+    </div>
+
+    <div class="menu">
+        <div id="options" hidden></div>
+        <div>
+            <input class="input-field" type="number" hidden placeholder="Rows" id="rows"/>
+        </div>
+        <div>
+            <input class="input-field" type="number" hidden placeholder="Columns" id="columns"/>
+        </div>
+        <div>
+            <input class="input-field" type="number" hidden placeholder="Amount of enemies" id="enemiesAmount"/>
+        </div>
+        <div>
+            <input class="input-field" type="number" hidden placeholder="Max Score" id="maxScore"/>
+        </div>
+        <div>
+            <input class="input-field" type="number" hidden placeholder="Max steps" id="maxSteps"/>
+        </div>
+        <div class="buttons">
+            <button class="btn" hidden id="saveBtn"></button>
+        </div>
+    </div>
+
+    <div class="menu">
+        <div id="gameEnd" hidden></div>
+        <div class="buttons">
+            <button class="btn" hidden id="restartGame"></button>
+        </div>
+    </div>
+
+    <script src="GameBackground.js"></script>
+    <script src="Personage.js"></script>
+    <script src="GameMenu.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
